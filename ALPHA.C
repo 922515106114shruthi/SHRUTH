@@ -1,21 +1,17 @@
 #include <stdio.h>
-
-int main(void) 
+#include<conio.h>
+void main()
 {
-	char ch=A;
-/*	printf(" enter the alphabet:");
-	scanf("%d",&ch);*/
+	char ch;
+	printf(" enter the alphabet:");
+	scanf("%d",&ch);
 	if((ch>=65&& ch<=90)||(ch>=97 && ch<=122 ))
 	{
-		printf("%c",ch);
+		printf("%c IS ALPHABET",ch);
 	}
 	else
 	{
-		printf("%c is not",ch);
+		printf("%c is not ALPHABET",ch);
 	}
-	
-		
-		
-			
-	return 0;
+	getch();
 }
