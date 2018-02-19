@@ -22,7 +22,7 @@ for(j=i+1;j<=n;j++)
 	if(a[i]>a[j]){
 t=a[i];
 a[i]=a[j];
-a[j]=t;}}
+a[j]=t;
 }}}
 printf("\n%d",a[n]);
 getch();
