@@ -3,9 +3,9 @@
 void main()
 {
 	
-	int a[20],i,j,n=10,t;
-//printf(" enter the range:");
-//scanf(" %d",&n);
+	int a[20],i,j,n,t;
+printf(" enter the range:");
+scanf(" %d",&n);
 for(i=1;i<=n;i++)
 {
 scanf("%d",&a[i]);
